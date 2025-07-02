@@ -1,17 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>sur mon site</title>
 </head>
 <body>
-    <h1>Bienvenus sur mon site</h1>
+    <h1 id="haut">Bienvenus sur mon site</h1>
     <nav>
-        <a href="">accueil</a>
-        <a href="">A propos</a>
-        <a href="">Contact</a>
+        <ul>
+            <li><a href="">Accueil</a></li>
+            <li><a href="">A propos</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
     </nav>
-    <h2>Ma première section</h2>
+    <section>
+            <div id="section1" class="main-content">
+                <h2>Ma première section</h2>
+                <p>Ceci est un paragraphe d'exemple pour apprendre le HTML et CSS</p>
+            </div>
+
+            <a href="EgZjaHJvbWUqCggBEAAYsQMYgAQyDAgAEEUYORixAxiABDIKCAEQABixAxiABDIQCAIQLhjHARixAxjRAxiABDINCAMQABiDARixAxiABDIKCAQQABixAxiABDINCAUQABiDARixAxiABDIKCAYQABixAxiABDIQCAcQLhjHARixAxjRAxiABDIKCAgQABixAxiABDIHCAkQABiPAtIBCDMxODZqMGo3qAIAsAIA" target="blank">
+            <img src="mars-67522_1280.jpg" alt="robot mars" width="500" title="Mon robot">
+            </a>
+
+            <ol>
+                <li>Etape 1</li>
+                <li>Etape 2</li>
+                <li>Etape 3</li>
+            </ol>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yU20m38Kwgw?si=WcU0po6lDKeCKWAT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <!--Insérer une vidéo personettes ne pas oublier attribut controls 
+            poster => pour mettre une image en avant première
+            autoplay => créer un démarrage automatique
+            loop => la vidéo sera en boucle -->
+            <video src="nom.mp4" controls></video>
+
+
+        </section>
+
+        <section>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore vitae dolorem neque, quis at accusamus nihil ab doloremque facere, molestias rerum iure repellat. Dolorem sunt ex eaque molestias dolores odit minima blanditiis nesciunt ipsum. Quas nostrum animi quam necessitatibus ullam corrupti est neque quibusdam voluptate, sed fugiat! Modi, commodi recusandae?</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore vitae dolorem neque, quis at accusamus nihil ab doloremque facere, molestias rerum iure repellat. Dolorem sunt ex eaque molestias dolores odit minima blanditiis nesciunt ipsum. Quas nostrum animi quam necessitatibus ullam corrupti est neque quibusdam voluptate, sed fugiat! Modi, commodi recusandae?</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore vitae dolorem neque, quis at accusamus nihil ab doloremque facere, molestias rerum iure repellat. Dolorem sunt ex eaque molestias dolores odit minima blanditiis nesciunt ipsum. Quas nostrum animi quam necessitatibus ullam corrupti est neque quibusdam voluptate, sed fugiat! Modi, commodi recusandae?</p>
+        </section>
+
+        <p>Pour aller en haut cliquez <a href="#haut">ici</a></p>
+        
+
+        <!--pied de page-->
+        <footer>
+            <div id="footer">
+                <p>2025 Mon site </p>
+            </div>
+        </footer>
 </body>
 </html>
